@@ -1,0 +1,51 @@
+
+.rodape{
+    height: 200px;
+    width: 100vw;
+    border-bottom: black solid 1px;
+}
+
+#imagem{
+    display: block;
+    margin: auto;
+    max-width:380px;
+    max-height:380px;
+}
+
+#foto{
+    display: block;
+    margin: auto;
+    max-width:180px;
+    max-height:180px;
+    clip-path: circle(45%);
+}
+
+.info_base{
+    text-align: center;
+}
+
+.margem_texto{
+    display: block;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.corpo_texto{
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.404);
+}
+
+.posição-lista{
+    margin-left: 18px;
+}
+
+main{
+    background: url(../imagens/fundo-cinza.jpg);
+    box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.404);
+}
+

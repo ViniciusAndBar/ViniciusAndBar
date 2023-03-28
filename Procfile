@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath src app:minha_app

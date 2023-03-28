@@ -1,0 +1,55 @@
+.rodape{
+    height: 100px;
+    width: 100vw;
+    border-bottom: black solid 1px;
+}
+
+.posição_interesses{
+    text-align: center;
+    padding-top: 28px;
+}
+
+.margem_texto{
+    display: block;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 20px;
+    background-color:white;
+    box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.404);
+}
+
+.projeto1{
+    margin: auto;
+    max-width:230px
+}
+
+.projeto2{
+    margin: auto;
+    max-width:230px;
+}
+
+.projeto3{
+    display: block;
+    margin: auto;
+}
+
+.posição_textos{
+    margin-left: 38px;
+    margin-top: 50px;
+}
+
+
+.d-block {
+    margin: auto;
+    width: 80%;
+}
+
+.carousel-item{
+    width: 100%;
+}
+
+main{
+    background: url(../imagens/fundo-cinza.jpg);
+    box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.404);
+}

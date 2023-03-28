@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+<!-- <!DOCTYPE html> 
+<html lang="en">-->
+<!-- <head>
+
+</head> -->
+
+<!-- <body> -->
+    {% block main %}
+    <header class="header">
+        <img class="logo_gemeos" src="../static/imagens/Logo Gemeos.png" alt="Logo">
+        <div class="div link" style= "margin-top: 20px;">
+            <a href="/"> Sobre Mim |</a>
+            <a href="/Interesses">Interesses</a>
+            <a href="/Trabalhos"><b>| Trabalhos Desenvolvidos</b></a>
+        </div>
+    </header>
+
+    
+    <div class="rodape">
+        <div class="posição_interesses">
+            <h1>TRABALHOS DESENVOLVIDOS</h1>
+        </div>
+    </div>
+    <main>
+        <div class="margem_texto">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../static/imagens/tcc_Jovem_Aprendiz.jpg" class="d-block w-100" alt="img_jovem_aprendiz">
+                  </div>
+                  <div class="carousel-item">
+                      <div class="Api_img">
+                        <img src="../static/imagens/API_Projeto.png" class="d-block w-100" alt="img_API">
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../static/imagens/Cracha_NLW.jpg" class="d-block" alt="img_Cracha">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+            <div class="posição_textos">
+                <h4>Experiência Profissional:</h4>
+                <ul>
+                    <li>Jovem Aprendiz de técnico em química pelo SESI – Jacareí e SENAI Luiz Simon, Entre os anos de 2019 e 2020.</li>
+                    <li>Desenvolvimento do projeto: “Comparação de métodos de extração do óleo vegetal a partir do abacate”. Desenvolvido na escola SENAI Luiz Simon em formato de TCC.</li>
+                    <li>Desenvolvimento do projeto API. Desenvolvido na Faculdade FATEC em formato de TCC fragmentado em várias entregas (Projeto incremental).</li>
+                </ul><br>
+
+                <h4>Trabalhos Desenvolvidos:</h4>
+                <ul>
+                    <li>TCC para curso tecnico de químico, com tema: “Comparação de métodos de extração do óleo vegetal a partir do abacate”</li>
+                    <li>TCC para conclusão do jovem aprendiz de técnico em quimica pelo SESI, com tema: “Aplicação de técnicas de investimento para formação do planejamento previdênciario individual” </li>
+                    <li>Cracha RocketSeat - evento NLW de Outubro 2021</li>
+                    <li>API para faculdade FATEC - desenvolvimento de um portal de informações para o Corpo Docente, Discente e Administrativo da Fatec SJC capaz de exibir e gerar de forma seletiva e controlada os avisos gerais ou específicos de cada usuário, respeitando as respectivas hierarquias dentro da universidade com o intuíto de melhorar a comunicação interna da instituição.</li>
+                </ul><br>
+
+                <h4>Trabalhos Futuros:</h4>
+                <ul>
+                    <li>Alguma aplicação voltada à biologia, seja monitoramento de especieis ou catalogação a partir de uma aplicação.</li>
+                    <li>Encremento e criação de sites e aplicações online para alguns conhecidos meus.</li>
+                    <li>Projeto envolvendo jogos, seja na criação ou emplementação de algo.</li>
+                </ul><br>
+
+            </div>
+        </div>
+    </main>
+    {% endblock %}
+
+
+<!-- </body> -->
+
+
+</html>

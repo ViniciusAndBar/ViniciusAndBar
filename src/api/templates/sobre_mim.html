@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+<!-- <!DOCTYPE html> 
+<html lang="en">-->
+
+<!-- <head>
+    {% block head %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mim</title>
+
+
+    <link rel="stylesheet" href="../static/styles/estrutura global.css">
+    <link rel="stylesheet" href="../static/styles/sobre mim.css">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    {% endblock %}
+
+</head> -->
+
+
+
+<!-- <body> -->
+    {% block main %}
+    <header class="header">
+        <img class="logo_gemeos" src="../static/imagens/Logo Gemeos.png" alt="Logo">
+        <div class="div link" style= "margin-top: 20px;">
+            <a href="/"> <b>Sobre Mim |</b></a>
+            <a href="/Interesses">Interesses</a>
+            <a href="/Trabalhos">| Trabalhos Desenvolvidos</a>
+        </div>
+    </header>
+
+    <div class="rodape">
+        <div>
+            <img id=imagem src="../static/imagens/Bem Vindo.png" alt="Bem Vindo">
+        </div>
+    </div>
+    <main>
+        <div class="corpo_texto">
+            <img id=foto src="../static/imagens/foto.jpg" alt="Foto de Perfil">
+            <div class="info_base">
+                <h5>Vinícius Andrade Barbosa</h5>
+                <h6>Rua Marcolino José Maria</h6>
+                <h6>Jacareí – São Paulo – 12309-180</h6>
+                <h6>Telefone: (12) 98884-5554</h6>
+                <h6>vini.zeus2002@gmail.com</h6><br>
+            </div><br>
+            <div class="margem_texto">
+                <h4>Objetivo:</h4><p> Meu principal objetivo é fazer aquilo que eu acho interessante e que me renderá dinheiro, logo, unindo o util ao agradável eu optei por me tornar desenvolvedor de software multiplataforma, pois é uma área interessante com aplicações em diversas outras áreas e que paga muito bem.</p><br>
+                <h4>Formação Academica:</h4>
+                <ul class="posição-lista">
+                    <li>Técnico em química SENAI Luiz Simon, 1500 horas, conclusão em dezembro de 2020. Com continuação pelo “curso de vivência profissional”.</li>
+                    <li>Ensino Médio completo na instituição de ensino SESI – Jacareí, conclusão em dezembro de 2020.</li>
+                    <li>Ensino Fundamental completo na instituição de ensino SESI – Jacareí, conclusão em dezembro de 2017.</li>
+                </ul><br>
+                <h4>Idiomas:</h4>
+                <ul class='posição-lista'>
+                    <li>Ingles: B2 (Intermediario superior)</li>
+                </ul><br>
+
+            </div>
+        </div>
+    </main>
+    {% endblock %}
+
+<!-- </body> -->
+
+
+</html>
